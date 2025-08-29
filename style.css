@@ -1,0 +1,67 @@
+/* Background */
+.stApp {
+    background-color: #000000;
+}
+
+/* Title container */
+.title-container {
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+.title-container h1 {
+    color: #1DB954;
+    font-size: 48px;
+    margin: 0;
+}
+.subtitle {
+    text-align: center;
+    color: #1DB954;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Playlist header */
+.playlist-header {
+    color: #1DB954;
+}
+
+/* Album images */
+.album-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Track text */
+.track-text {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+.track-text a {
+    color: white !important;
+    text-decoration: none;
+}
+
+/* Green button with hover */
+div.stButton > button {
+    background-color: #1DB954;
+    color: black;
+    border-radius: 5px;
+    padding: 0.4em 1em;
+    font-weight: bold;
+    border: none;
+    transition: all 0.2s ease;
+}
+div.stButton > button:hover {
+    background-color: #1ed760;
+    color: black;
+}
+
+/* Input and slider labels */
+.stTextInput label,
+.stSlider label {
+    color: white !important;
+}

@@ -1,0 +1,5 @@
+primaryColor="#1DB954"        
+backgroundColor="#000000"     # app background
+secondaryBackgroundColor="#000000"
+textColor="#FFFFFF"           # for text and labels
+font="sans serif"
